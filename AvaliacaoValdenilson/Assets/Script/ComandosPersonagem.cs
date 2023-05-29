@@ -25,6 +25,8 @@ public class ComandosPersonagem : MonoBehaviour
         if (Input.GetButtonDown("Jump")) 
         {
             rbPlayer.AddForce(new Vector2(0, forcaPulo));
+
+
         }
     }
 }
